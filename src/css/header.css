@@ -9,6 +9,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-right: 40px;
 }
 .nav-list {
   display: flex;

@@ -1,0 +1,30 @@
+
+.gallery {
+    width: 1128px;
+    background: #fff;
+    margin: 24px auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 24px;
+}
+.gallery-item {
+    width: 360px;
+    height: 200px;
+    overflow: hidden;
+    background: #ffffff;
+}
+.gallery-link {
+    display: block;
+    text-decoration: none;
+}
+.gallery-image {
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    transition: transform 250ms ease;
+}
+.gallery-image:hover {
+    transform: scale(1.05);
+}
